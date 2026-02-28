@@ -1,1 +1,18 @@
-
+[
+  {
+    "tier": 3,
+    "supplier_id": "RAW-99",
+    "material": "Cobalt",
+    "origin": "Region-A",
+    "status": "Verified",
+    "hash": "x882...12"
+  },
+  {
+    "tier": 2,
+    "supplier_id": "COMP-55",
+    "material": "Battery Cells",
+    "parent_supplier": "RAW-99",
+    "status": "Flagged_Anomaly",
+    "hash": "y991...44"
+  }
+]
